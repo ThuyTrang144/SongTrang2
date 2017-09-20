@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgAvt"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/avt_png"/>
+    />
+
+    <ImageView
+        android:id="@+id/bground"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_below="@id/imgAvt"
+        android:background="@drawable/bground_png"
+       />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bground"
+        android:text="Đăng Nhập"
+        android:background="@color/colorSpecial"
+        android:textColor="@color/colorWhite"/>
+    </RelativeLayout>
